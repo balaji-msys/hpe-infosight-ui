@@ -1,0 +1,68 @@
+/* .vmlist-container {
+  padding: 5px;
+}
+
+.vmlist-header {
+  margin: 10px 0px;
+}
+
+.tableHeader-row {
+  font-size: 13px;
+  color: #337ab7;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.tableHeader-row-active:hover {
+  color: red;
+}
+
+.tableRow-data {
+    font-size: 13px;
+  padding-left: 6px;
+  padding-right: 6px;
+} */
+
+
+.vmlist-container {
+  padding: 5px;
+}
+
+.vmlist-header {
+  margin: 10px 0px;
+}
+
+.tableHeader {
+  width: 100%;
+  border-bottom: 2px solid black !important;
+}
+
+/* .MuiTableHead-root .MuiTableRow-root .MuiTableCell-root.tableHeader-row { */
+.tableHeader-row {
+    font-weight: bold !important;
+  font-size: 13px !important;
+  color: #2674b8 !important;
+  padding: 10px 6px !important;
+  border-right: 1px solid grey !important;
+}
+
+.tableHeader-row-active:hover {
+  color: #4a8dc7 !important;
+}
+
+.tableHeader-row-active {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+
+.row-active{
+    color: #2674b8 !important;
+      display: flex !important;
+  justify-content: space-between !important;
+
+}
+.tableRow-data {
+  font-size: 14px !important;
+  padding: 16px 6px !important;
+}

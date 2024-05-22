@@ -1,0 +1,47 @@
+.header {
+  padding: 10px;
+  background-color: rgb(54, 88, 72);
+  color: white;
+}
+
+.dashboard-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-sections {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  /* background-color: rgb(219, 218, 218); */
+  padding: 10px 15px;
+}
+
+.performance-section {
+  /* height: 100%; */
+  width: 66%;
+}
+.recommendation-section {
+  /* height: 100%; */
+  width: 33%;
+  position: relative;
+  right: 0px;
+}
+.second-sections {
+  width: 100%;
+  margin-top: 7px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.vm-section {
+  width: 100%;
+  margin-top: 3px;
+}
+.system-section {
+  width: 40%;
+}

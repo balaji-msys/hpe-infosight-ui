@@ -1,0 +1,14 @@
+.vm-container {
+  padding: 15px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.custom-legend{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 20px;
+}

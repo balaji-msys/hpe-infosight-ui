@@ -1,0 +1,79 @@
+.dashboard-header {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:8px;
+}
+.dashboard-header>h3{
+  margin: 0;
+}
+.details-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  gap: 30px;
+  position: relative;
+  right: 20px;
+}
+.hardware-icon{
+  position: relative;
+  top: -3px;
+}
+.hardware-count {
+  margin-left: 10px;
+  position: relative;
+  /* top: 1px; */
+}
+
+.heartbeat-details,
+.phonecall-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+.heartbeat-icon-success,
+.heartbeat-icon-failure,
+.gear-icon-success,
+.gear-icon-failure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.heartbeat-icon {
+  animation: pulse 0.5s infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+.gear-icon {
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.heartbeat-icon-success,
+.gear-icon-success {
+  color: #4caf50;
+}
+.heartbeat-icon-failure,
+.gear-icon-failure {
+  color: #f44336;
+}
