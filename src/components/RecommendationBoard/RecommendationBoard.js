@@ -8,7 +8,7 @@ export const RecommendationBoard = ({ recommendation }) => {
       {recommendation?.map((value) => {
         return (
           <div className="charts-section" key={value?._id}>
-            <h4>Diagnoses Type by Score </h4>
+            <h5>Diagnoses Type by Score </h5>
             <PieChart
               margin={{ top: -50, bottom: 50, left: 0, right: 0 }}
               slotProps={{
@@ -31,7 +31,7 @@ export const RecommendationBoard = ({ recommendation }) => {
                   },
                 },
               ]}
-              height={210}
+              height={190}
             />
           </div>
         );

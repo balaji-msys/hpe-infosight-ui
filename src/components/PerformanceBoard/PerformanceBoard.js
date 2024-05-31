@@ -103,7 +103,7 @@ export const PerformanceBoard = () => {
           </div>
           <div className="perfomance-section-tabs">
             <h5
-              className={active === "network" ? "active" : "nav-link"}
+              className={active === "network" ? "tab-link-active" : "tab-link"}
               onClick={() => {
                 setActive("network");
                 setCurrentData(data?.networkData);
@@ -112,7 +112,7 @@ export const PerformanceBoard = () => {
               Network
             </h5>
             <h5
-              className={active === "memory" ? "active" : "nav-link"}
+              className={active === "memory" ? "tab-link-active" : "tab-link"}
               onClick={() => {
                 setActive("memory");
                 setCurrentData(data?.memoryData);
@@ -190,7 +190,7 @@ export const PerformanceBoard = () => {
           currentData && (
             <LineChart
               maxWidth={830}
-              height={250}
+              height={190}
               series={[
                 { data: currentData?.uData, label: "uv", color: "red" },
                 { data: currentData?.pData, label: "pv" },

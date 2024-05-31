@@ -1,7 +1,7 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import { OperationalDashboard } from "./pages/OperationalDashboard";
-import { VmDashboard } from "./pages/VmDashboard";
+import { OperationalDashboard } from "./pages/OperationalDashboard/OperationalDashboard";
+import { VmDashboard } from "./pages/VmDashboard/VmDashboard";
 
 function App() {
   return (

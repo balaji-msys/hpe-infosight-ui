@@ -5,7 +5,7 @@ import { BsGear } from "react-icons/bs";
 export const DashboardHeader = () => {
   return (
     <div className="dashboard-header">
-      <h3>Operational Dashboard</h3>
+      <h4>Operational Dashboard</h4>
       <div className="details-section">
         <div className="hardware-details">
           <FaServer className="hardware-icon" />

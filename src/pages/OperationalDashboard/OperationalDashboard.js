@@ -1,12 +1,12 @@
 import "./OperationalDashboard.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { DashboardHeader } from "../components/DashboardHeader/DashboardHeader";
-import { PerformanceBoard } from "../components/PerformanceBoard/PerformanceBoard";
-import { LatencyAndIops } from "../components/Latency and IOPS/LatencyAndIops";
-import { RecommendationBoard } from "../components/RecommendationBoard/RecommendationBoard";
-import { Spinner } from "../components/Spinner/Spinner";
-import { Error } from "../components/Error/Error.";
+import { DashboardHeader } from "../../components/DashboardHeader/DashboardHeader";
+import { PerformanceBoard } from "../../components/PerformanceBoard/PerformanceBoard";
+import { LatencyAndIops } from "../../components/Latency and IOPS/LatencyAndIops";
+import { RecommendationBoard } from "../../components/RecommendationBoard/RecommendationBoard";
+import { Spinner } from "../../components/Spinner/Spinner";
+import { Error } from "../../components/Error/Error.";
 
 export const OperationalDashboard = () => {
   const [data, setData] = useState([]);
